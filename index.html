@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="session-length">
+  <h1>Pomodoro Clock</h1>
+  <div id="sessionTime">
+    <p>session time</p>
+    <button class="buttonstoo" type="button" onclick="minusTime()">-</button>
+    <div class="display" value ="25" id="sessionSet">25</div>
+    <button class="buttonstoo" type="button" onclick="addTime()">+</button>
+  </div>
+  <div id="breakTime">
+    <p>break time</p>
+    <button class="buttonstoo" type="button" onclick="breakMinusTime()">-</button>
+    <div class="display" id="breakSet" value ="5">5</div>
+    <button class="buttonstoo" type="button" onclick="breakAddTime()">+</button></div> 
+</div>
+
+<div id="clockdiv">
+  <div class="minutes" id="minutes" value ="0">25</div><p class="colon">:</p><div class="seconds" value ="0" id="seconds">00</div>
+</div>
+
+<div class="buttons">
+ <button class="buttonstoo" type="button" onclick="startTimer()">start</button>
+ <button class="buttonstoo" id="pause" type="button">pause</button>
+ <button class="buttonstoo" id="resume" type="button">resume</button>
+ <button class="buttonstoo" id="reset" type="button">reset</button>
+ <button class="buttonstoo" type="button" onclick="restartTimer()">restart</button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+/*TOC
+    - Global
+    - Page Structure
+    - Typography
+*/
+
+/*-------------------->>> GLOBAL <<<---------------------*/
+
+body {
+  font-family: 'Play', sans-serif;
+}
+
+
+/*---------------->>> PAGE STRUCTURE <<<-----------------*/
+
+.session-length {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding-bottom: 60px;
+  text-align: center;
+  width: 250px;
+}
+
+.buttons {
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 0px;
+  padding-bottom: 70px;
+  width: 240px;
+}
+
+.buttonstoo {
+  background-color: pink;
+  border: none;
+  display: inline;
+  outline:none;
+  padding: 5px;
+}
+.buttonstoo:active {
+  background-color: black;
+  border: none;
+  outline:none;
+  padding: 5px;
+}
+
+.buttonstoo:focus {
+  border: none;
+  outline:none;
+  padding: 5px;
+}
+
+.display {
+  display: inline;
+}
+
+.minutes {
+  display: inline;
+}
+
+.colon {
+  display: inline;
+}
+
+.seconds {
+  display: inline;
+}
+
+#sessionTime {
+  float: left;
+}
+
+#sessionSet {
+  font-size: 1.5em;
+}
+
+#breakTime {
+  float: right;
+}
+
+#breakSet {
+  font-size: 1.5em;
+}
+
+#clockdiv {
+  font-size: 5em;
+  margin-left:auto;
+  margin-right:auto;  
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align:center;
+  width: 300px;
+}
+
+/*-------------------->>> TYPOGRAPHY <<<---------------------*/
+
+h1 {
+  margin-left:auto;
+  margin-right:auto;  
+  text-align: "center"
+  width: 250px;
+}
+
+
+
